@@ -1,0 +1,59 @@
+@import "https://fonts.google.com/specimen/Sora?query=sora";
+
+body {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e4e1e1;
+  margin-top: 50px;
+}
+
+#container {
+  width: 35%;
+  height: 460px;
+  background-color: #fff;
+  /* border: 1px solid red; */
+  padding: 16px;
+  border-radius: 16px;
+}
+.img-container > img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.tag {
+  background-color: #e6d6fc;
+  color: #883ae1;
+  border: none;
+  margin-top: 16px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-family: "Sora" sans-serif;
+  /* font-size: 10px; */
+  font-weight: bolder;
+}
+h2 {
+  font-family: "Sora", sans-serif;
+  color: #20293a;
+}
+p {
+  color: #6c727f;
+  width: 70%;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+}
+
+hr {
+  color: #6c727f;
+  width: 106%;
+  margin-left: -15px;
+}
+
+.small-text {
+  margin-top: 20px;
+  font-family: "Sora" sans-serif;
+  color: #6c727f;
+  font-size: 14px;
+}
